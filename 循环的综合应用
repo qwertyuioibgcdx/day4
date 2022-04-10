@@ -1,0 +1,9 @@
+quality = [1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1]
+sum=0
+for num in quality:
+    if num==0:
+        sum=sum+1 
+if sum>=2:
+   print("不合格")
+else:
+   print("合格")
